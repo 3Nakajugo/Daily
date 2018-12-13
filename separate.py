@@ -4,7 +4,7 @@ def separate():
         if item % 7 == 0 and item % 5 != 0:
             items.append(item)
 
-    print(items)
+    return items
 
 
-separate()
+print(separate())
